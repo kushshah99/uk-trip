@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Trip Planner — June/July 2026</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+    <header>
+        <h1>🇬🇧 UK Trip Planner</h1>
+        <p class="subtitle">Peterborough Base | June - July 2026</p>
+    </header>
+
+    <nav class="tabs">
+        <button class="tab active" data-tab="overview">📋 Overview</button>
+        <button class="tab" data-tab="weekend1">🎡 W1: 21-22 Jun</button>
+        <button class="tab" data-tab="weekend2">🏰 W2: 3-5 Jul</button>
+        <button class="tab" data-tab="weekend3">🍫 W3: Bham+Leeds</button>
+        <button class="tab" data-tab="weekend4">🏴󠁧󠁢󠁳󠁣󠁴󠁿 W4: Scotland</button>
+        <button class="tab" data-tab="bookings">🎟️ Booking Ref</button>
+    </nav>
+
+    <main>
+        <section id="overview" class="tab-content active">
+            <div class="overview-grid">
+                <div class="overview-card" onclick="switchTab('weekend1')">
+                    <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400&h=200&fit=crop" alt="London">
+                    <div class="overview-card-body">
+                        <h3>Weekend A — London</h3>
+                        <p class="dates">21-22 June 2026 (Sat-Sun)</p>
+                        <p>Notting Hill • Moulin Rouge! • Harry Potter • Covent Garden • Neal's Yard</p>
+                        <span class="badge badge-green">Planned</span>
+                    </div>
+                </div>
+                <div class="overview-card" onclick="switchTab('weekend2')">
+                    <img src="https://images.unsplash.com/photo-1599833975787-5c143f373c30?w=400&h=200&fit=crop" alt="Stonehenge">
+                    <div class="overview-card-body">
+                        <h3>Weekend B — London 3-Day</h3>
+                        <p class="dates">3-4-5 July 2026 (Fri-Sat-Sun)</p>
+                        <p>Windsor+Stonehenge+Bath tour • Shakespeare Open Air • Paradox Museum • Floating Igloo • Borough Market • Columbia Road • Sky Garden • Camden</p>
+                        <span class="badge badge-green">Planned</span>
+                    </div>
+                </div>
+                <div class="overview-card" onclick="switchTab('weekend3')">
+                    <img src="https://images.unsplash.com/photo-1582036583506-5ae7cfa0dfc5?w=400&h=200&fit=crop" alt="York">
+                    <div class="overview-card-body">
+                        <h3>Weekend C — Birmingham + Leicester + Leeds</h3>
+                        <p class="dates">TBD</p>
+                        <p>Day trips from Peterborough</p>
+                        <span class="badge badge-yellow">Coming Soon</span>
+                    </div>
+                </div>
+                <div class="overview-card" onclick="switchTab('weekend4')">
+                    <img src="https://images.unsplash.com/photo-1506377585622-bedcbb5f6789?w=400&h=200&fit=crop" alt="Edinburgh">
+                    <div class="overview-card-body">
+                        <h3>Weekend D — Scotland</h3>
+                        <p class="dates">11-13 July 2026</p>
+                        <p>Edinburgh • Highlands • Pitlochry</p>
+                        <span class="badge badge-yellow">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+
+            <h2>🗺️ Trip Route Map</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d2483985.7!2d-2.5!3d53.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0x4877e7e3e7c3f7b7%3A0x6e3f3b5e6f3f3b5e!2sPeterborough!3m2!1d52.5695!2d-0.2405!4m5!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!3m2!1d51.5074!2d-0.1278!4m5!1s0x487604d3e1daaf25%3A0xf3d1c3a3c1d4580a!2sWindsor+Castle!3m2!1d51.4839!2d-0.6044!4m5!1s0x4873e1b20e6b8fd5%3A0x2e8f1e4e1e4e1e4e!2sStonehenge!3m2!1d51.1789!2d-1.8262!4m5!1s0x48718174b7b4d8d1%3A0x4c1c3c3c3c3c3c3c!2sBath!3m2!1d51.3811!2d-2.3590!4m5!1s0x47d8774ed91c96df%3A0x3e3f3b5e6f3f3b5e!2sCambridge!3m2!1d52.2053!2d0.1218!4m5!1s0x4878c340e19865f1%3A0x4774ab898a5b4f8e!2sYork!3m2!1d53.9591!2d-1.0815!4m5!1s0x4887b800a5982623%3A0x64f2147b7b5eee!2sEdinburgh!3m2!1d55.9533!2d-3.1883!5e0!3m2!1sen!2suk!4v1" width="100%" height="350" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="tip">Map shows: Peterborough → London → Windsor → Stonehenge → Bath → Cambridge → York → Edinburgh</div>
+
+            <h2>💰 Total Trip Budget</h2>
+            <table>
+                <tr><th>Weekend</th><th>Destination</th><th>Days</th><th>Estimated Cost</th></tr>
+                <tr><td>A</td><td>London (Notting Hill + Moulin Rouge + Harry Potter)</td><td>2</td><td>£241 - £328</td></tr>
+                <tr><td>B</td><td>London (Bath tour + Shakespeare + Igloo + Markets)</td><td>3</td><td>£353 - £407</td></tr>
+                <tr><td>C</td><td>Birmingham + Leicester + Leeds</td><td>TBD</td><td>~£80 - £150</td></tr>
+                <tr><td>D</td><td>Scotland (Edinburgh + Highlands)</td><td>2-3</td><td>~£200 - £350</td></tr>
+                <tr><td colspan="3"><strong>Grand Total</strong></td><td class="budget-total"><strong>£874 - £1235</strong></td></tr>
+            </table>
+        </section>
+
+        <section id="weekend1" class="tab-content"></section>
+        <section id="weekend2" class="tab-content"></section>
+        <section id="weekend3" class="tab-content"></section>
+        <section id="weekend4" class="tab-content"></section>
+        <section id="bookings" class="tab-content"></section>
+    </main>
+</div>
+
+<script src="weekend1.js"></script>
+<script src="weekend2.js"></script>
+<script src="weekend3.js"></script>
+<script src="weekend4.js"></script>
+<script src="bookings.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
