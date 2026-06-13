@@ -11,9 +11,10 @@ const weekend1Content = `
     <ul class="checklist">
         <li><strong>Moulin Rouge!</strong> — Sat 21 Jun, 2:30 PM matinee<br><a class="link-btn" href="https://moulinrougemusical.co.uk/" target="_blank">Book tickets (from £30)</a> <a class="link-btn" href="https://officiallondontheatre.com/theatre-tickets/" target="_blank">Discount tickets</a></li>
         <li><strong>Harry Potter Studio Tour</strong> — Sun 22 Jun, 10:30 AM<br><a class="link-btn" href="https://www.wbstudiotour.co.uk" target="_blank">Book (£56)</a></li>
-        <li><strong>Train tickets (both days, both ways)</strong><br><a class="link-btn" href="https://www.lner.co.uk" target="_blank">LNER (£16.60 each way)</a></li>
+        <li><strong>Train tickets (both days, both ways)</strong><br><a class="link-btn" href="https://www.lner.co.uk" target="_blank">LNER (£16.60/way)</a> <a class="link-btn" href="https://www.mytrainpal.com/" target="_blank">TrainPal (code MSE5OFF = £5 off!)</a> <a class="link-btn" href="https://www.thetrainline.com" target="_blank">Trainline</a></li>
         <li><strong>Bubala dinner</strong> — Sat 21 Jun, 6:15 PM<br><a class="link-btn" href="https://www.opentable.com/r/bubala-london" target="_blank">Book on OpenTable</a></li>
         <li><strong>Holy Carrot lunch</strong> — Sat 21 Jun, 11:30 AM<br><a class="link-btn" href="https://www.holycarrot.co.uk" target="_blank">Book table</a></li>
+        <li><strong>💳 Get a Railcard (saves 1/3 on ALL trains!)</strong><br><a class="link-btn" href="https://www.26-30railcard.co.uk/" target="_blank">26-30 Railcard (£35/yr)</a> <a class="link-btn" href="https://www.mytrainpal.com/" target="_blank">TrainPal (23% off railcard, code MSE23)</a></li>
     </ul>
 </div>
 

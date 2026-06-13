@@ -228,15 +228,101 @@ const bookingsContent = `
 <h2>🚂 Train Quick Reference</h2>
 <div class="card">
     <table>
-        <tr><th>Route</th><th>Time</th><th>Advance from</th><th>Book at</th></tr>
-        <tr><td>Peterborough → London King's Cross</td><td>47 min</td><td><strong>£16.60</strong></td><td><a href="https://www.lner.co.uk" target="_blank">LNER</a></td></tr>
-        <tr><td>Peterborough → Edinburgh</td><td>3h 30min</td><td><strong>£24.50</strong></td><td><a href="https://www.lner.co.uk" target="_blank">LNER</a></td></tr>
-        <tr><td>Peterborough → Birmingham</td><td>1h 30min</td><td>~£15-25</td><td><a href="https://www.thetrainline.com" target="_blank">Trainline</a></td></tr>
-        <tr><td>Peterborough → Leeds</td><td>1h 45min</td><td>~£15-25</td><td><a href="https://www.thetrainline.com" target="_blank">Trainline</a></td></tr>
-        <tr><td>Peterborough → Leicester</td><td>50 min</td><td>~£8-12</td><td><a href="https://www.thetrainline.com" target="_blank">Trainline</a></td></tr>
-        <tr><td>Peterborough → Cambridge</td><td>50 min</td><td>~£10-15</td><td><a href="https://www.thetrainline.com" target="_blank">Trainline</a></td></tr>
-        <tr><td>Edinburgh → Pitlochry</td><td>1h 45min</td><td>~£15-20</td><td><a href="https://www.thetrainline.com" target="_blank">Trainline</a></td></tr>
+        <tr><th>Route</th><th>Time</th><th>Advance from</th><th>With Railcard (1/3 off)</th></tr>
+        <tr><td>Peterborough → London King's Cross</td><td>47 min</td><td>£16.60</td><td>~£11</td></tr>
+        <tr><td>Peterborough → Edinburgh</td><td>3h 30min</td><td>£24.50</td><td>~£16</td></tr>
+        <tr><td>Peterborough → Birmingham</td><td>1h 30min</td><td>~£15</td><td>~£10</td></tr>
+        <tr><td>Peterborough → Leeds</td><td>1h 45min</td><td>~£15</td><td>~£10</td></tr>
+        <tr><td>Peterborough → Leicester</td><td>50 min</td><td>~£8</td><td>~£5</td></tr>
+        <tr><td>Peterborough → Cambridge</td><td>50 min</td><td>~£10</td><td>~£7</td></tr>
+        <tr><td>Edinburgh → Pitlochry</td><td>1h 45min</td><td>~£15</td><td>~£10</td></tr>
     </table>
-    <div class="tip"><strong>Book 4+ weeks ahead</strong> for cheapest advance fares. Prices double closer to the date. LNER Perks gives £5 free + 2% back.</div>
+    <div class="tip"><strong>Book 4+ weeks ahead</strong> for cheapest advance fares. Prices double closer to the date.</div>
+</div>
+
+<h2>💳 Railcard & Booking Apps</h2>
+<div class="card">
+    <h3>26-30 Railcard — Saves 1/3 on ALL trains</h3>
+    <table>
+        <tr><th>Detail</th><th>Info</th></tr>
+        <tr><td>Cost</td><td>£35/year (or £80 for 3 years)</td></tr>
+        <tr><td>Saves</td><td>1/3 off almost all rail fares</td></tr>
+        <tr><td>Pays for itself</td><td>After just 2 London return trips!</td></tr>
+        <tr><td>Digital</td><td>Stored on phone — no physical card needed</td></tr>
+    </table>
+    <a class="link-btn" href="https://www.26-30railcard.co.uk/" target="_blank">Official site (£35)</a>
+    <a class="link-btn" href="https://www.mytrainpal.com/" target="_blank">TrainPal (code MSE23 = 23% off → £26.95!)</a>
+    <a class="link-btn" href="https://www.thetrainline.com/trains/great-britain/railcards" target="_blank">Buy on Trainline</a>
+    <div class="tip">Buy the Railcard BEFORE booking any trains — then apply it to get 1/3 off every ticket.</div>
+</div>
+
+<div class="card">
+    <h3>Where to Book Train Tickets (compare these)</h3>
+    <table>
+        <tr><th>App/Site</th><th>Pros</th><th>Link</th></tr>
+        <tr><td><strong>TrainPal</strong></td><td>No booking fees, code MSE5OFF = £5 off first ticket, cheapest railcard</td><td><a href="https://www.mytrainpal.com/" target="_blank">mytrainpal.com</a></td></tr>
+        <tr><td><strong>LNER</strong></td><td>Direct operator, no fees, LNER Perks (£5 free + 2% back), best for Peterborough-London/Edinburgh</td><td><a href="https://www.lner.co.uk" target="_blank">lner.co.uk</a></td></tr>
+        <tr><td><strong>Trainline</strong></td><td>Compares all operators, easy app, split ticketing, digital railcards</td><td><a href="https://www.thetrainline.com" target="_blank">thetrainline.com</a></td></tr>
+        <tr><td><strong>National Rail</strong></td><td>Official timetables + journey planner</td><td><a href="https://www.nationalrail.co.uk" target="_blank">nationalrail.co.uk</a></td></tr>
+    </table>
+    <div class="tip"><strong>Pro tip:</strong> LNER is best for Peterborough↔London and Peterborough↔Edinburgh (direct trains, no fees, Perks rewards). Use TrainPal for the railcard discount + first ticket £5 off.</div>
+</div>
+<h2>🚇 London Transport — Oyster vs Contactless</h2>
+<div class="card">
+    <h3>Does she need an Oyster card?</h3>
+    <table>
+        <tr><th></th><th>Contactless Bank Card</th><th>Oyster Card</th></tr>
+        <tr><td><strong>Best for her?</strong></td><td><strong>✅ YES — use this</strong></td><td>Not needed if she has contactless</td></tr>
+        <tr><td>How</td><td>Just tap in/out with any Visa/Mastercard debit or credit card (or phone — Apple/Google Pay)</td><td>Buy at station, load money, tap in/out</td></tr>
+        <tr><td>Daily cap Zone 1-2</td><td>~£8.10 (same as Oyster)</td><td>~£8.10</td></tr>
+        <tr><td>Works on</td><td>Tube, Bus, DLR, Overground, Elizabeth Line, Tram</td><td>Same</td></tr>
+        <tr><td>Advantage</td><td>No need to buy anything or top up — just use her bank card!</td><td>Budget control (only spend what's loaded)</td></tr>
+    </table>
+    <div class="tip"><strong>Recommendation: Just use contactless.</strong> Same price, no queues, nothing to buy or return. If her Indian bank card is Visa/Mastercard contactless-enabled, it works.</div>
+</div>
+
+<div class="card">
+    <h3>If she DOES need an Oyster card (e.g. card not contactless):</h3>
+    <table>
+        <tr><th>Where to buy</th><th>Details</th></tr>
+        <tr><td><strong>Tube station ticket machines</strong></td><td>Available at ALL stations including King's Cross. Yellow machines. Card costs £7 deposit (refundable) + however much you top up.</td></tr>
+        <tr><td><strong>Oyster Ticket Shops</strong></td><td>4,000+ newsagents across London with blue Oyster sticker in window</td></tr>
+        <tr><td><strong>Visitor Oyster Card (pre-order)</strong></td><td>Order online before trip, delivered to her address. Comes with discount booklet.</td></tr>
+    </table>
+    <h3 style="margin-top:16px;">How to top up:</h3>
+    <ul style="padding-left:20px; list-style:disc;">
+        <li><strong>Ticket machines</strong> at any Tube station (cash or card)</li>
+        <li><strong>TfL app</strong> or <strong>tfl.gov.uk/oyster</strong> (online, takes ~30 min to activate)</li>
+        <li><strong>Oyster Ticket Shops</strong> (newsagents with blue sticker)</li>
+        <li><strong>Contactless at the machine</strong> — fastest, no queue</li>
+    </ul>
+    <h3 style="margin-top:16px;">How much to load:</h3>
+    <ul style="padding-left:20px; list-style:disc;">
+        <li>Daily cap is ~£8.10 (Zone 1-2) — she won't spend more than this per day</li>
+        <li>For a 1-day trip: load <strong>£10-15</strong></li>
+        <li>For a weekend (2 days): load <strong>£20</strong></li>
+        <li>Unused balance is <strong>refundable</strong> at any ticket machine (if under £10)</li>
+    </ul>
+    <a class="link-btn" href="https://tfl.gov.uk/fares/how-to-pay-and-where-to-buy-tickets-and-oyster" target="_blank">TfL Official Guide</a>
+    <a class="link-btn" href="https://tfl.gov.uk/travel-information/visiting-london/visitor-oyster-card" target="_blank">Pre-order Visitor Oyster</a>
+    <a class="link-btn" href="https://tfl.gov.uk/fares/find-fares/tube-and-rail-fares/pay-as-you-go-caps" target="_blank">Daily fare caps</a>
+</div>
+
+<h2>⏱️ Rest & Pace Guide</h2>
+<div class="card">
+    <h3>Built-in rest across all weekends:</h3>
+    <table>
+        <tr><th>Weekend</th><th>Seated/Rest time per day</th><th>Steps (approx)</th></tr>
+        <tr><td>W1 Saturday</td><td>~4 hrs (Moulin Rouge 2.5h + dinner 1h + cafés)</td><td>~10K</td></tr>
+        <tr><td>W1 Sunday</td><td>~4 hrs (HP self-paced + trains + café)</td><td>~8K</td></tr>
+        <tr><td>W2 Saturday</td><td>~6 hrs (coach between all 3 sites!)</td><td>~8K</td></tr>
+        <tr><td>W2 Sunday</td><td>~2 hrs (cafés + Sky Garden sit + canal walk)</td><td>~8K</td></tr>
+        <tr><td>W3 Thursday</td><td>~4 hrs (train 3.5h + dinner)</td><td>~8K</td></tr>
+        <tr><td>W3 Friday</td><td>~7 hrs (Highlands tour — mostly seated on coach!)</td><td>~5K</td></tr>
+        <tr><td>W3 Saturday</td><td>~5 hrs (trains to/from Pitlochry)</td><td>~8K</td></tr>
+        <tr><td>W4 Saturday</td><td>~5 hrs (theatre 2.5h + igloo 1.5h + café)</td><td>~10K</td></tr>
+        <tr><td>W4 Sunday</td><td>~3 hrs (cafés + park benches + deckchairs)</td><td>~6K</td></tr>
+    </table>
+    <div class="tip"><strong>Every schedule has:</strong> ☕ Coffee break every 2-3 hours | 🪑 Seated activity in the middle of each day | 🌳 Park/bench time to decompress | No day exceeds 12K steps</div>
 </div>
 `;
