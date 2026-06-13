@@ -9,8 +9,7 @@ const essentialsContent = `
         <tr><td><strong>Indian High Commission, London</strong></td><td style="font-family:monospace;">020 7836 8484<br><small>India House, Aldwych, London WC2B 4NA</small><br><a href="https://www.hcilondon.gov.in/" target="_blank">hcilondon.gov.in</a></td></tr>
         <tr><td><strong>Indian Embassy Emergency (24/7)</strong></td><td style="font-family:monospace;">+44 7930 098 405</td></tr>
         <tr><td><strong>Air India (UK)</strong></td><td style="font-family:monospace;">0124-264-1407 / 1860-233-1407<br><a href="https://www.airindia.com" target="_blank">airindia.com</a></td></tr>
-        <tr><td><strong>Hotel in Peterborough</strong></td><td><em>Add hotel name + number here</em></td></tr>
-        <tr><td><strong>Kush (you!)</strong></td><td><em>Add your UK/India number here</em></td></tr>
+        <tr><td><strong>Hotel — Park Inn by Radisson Peterborough</strong></td><td style="font-family:monospace;">+44 1733 353 750<br><small>Telephone House, Wentworth Street, Peterborough PE1 1BA</small><br><small>800m from Peterborough station (2 min walk)</small><br><a href="https://www.radissonhotels.com/en-us/hotels/park-inn-peterborough" target="_blank">Website</a></td></tr>
     </table>
     <div class="tip">Save these in your phone contacts BEFORE travelling. Also screenshot this page.</div>
 </div>
