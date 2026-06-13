@@ -56,8 +56,8 @@ const weekend1Content = `
 <div class="card activity">
     <div class="timeline-item"><span class="time">17:15</span><div class="detail"><strong>Tube to Westminster</strong><div class="sub">5 min ride</div></div></div>
     <div class="timeline-item"><span class="time">17:30</span><div class="detail"><strong>📸 Big Ben + Westminster Bridge</strong><div class="sub">Photos, enjoy the view. June sunset at 9:15 PM — gorgeous light!</div></div></div>
-    <div class="timeline-item"><span class="time">17:45</span><div class="detail"><strong>Sit on a bench by the Thames</strong><div class="sub">Breathe. Watch the river. 10 min.</div></div></div>
-    <div class="timeline-item"><span class="time">18:00</span><div class="detail"><strong>Tube to Soho</strong><div class="sub">5 min to Piccadilly, 5 min walk to Bubala</div></div></div>
+    <div class="timeline-item"><span class="time">17:45</span><div class="detail"><strong>👑 Buckingham Palace (5 min walk via St James's Park)</strong><div class="sub">Quick photo from the gates. See the guards. 10 min.</div></div></div>
+    <div class="timeline-item"><span class="time">18:00</span><div class="detail"><strong>Tube to Soho</strong><div class="sub">Green Park station (3 min walk) → Piccadilly Circus (1 stop) → 5 min walk to Bubala</div></div></div>
 </div>
 
 <h3>🍽️ Dinner (18:15 - 19:30)</h3>

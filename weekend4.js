@@ -26,7 +26,8 @@ const weekend4Content = `
     <div class="timeline-item"><span class="time">08:47</span><div class="detail"><strong>Arrive King's Cross</strong></div></div>
     <div class="timeline-item"><span class="time">09:00</span><div class="detail"><strong>Tube to London Bridge (15 min)</strong></div></div>
     <div class="timeline-item"><span class="time">09:15</span><div class="detail"><strong>🥙 Borough Market</strong><div class="sub">Take your time! Veggie street food brunch: falafel wraps, halloumi, pastries, fresh juice. Sit at communal tables. Browse stalls. 1.5 hours — this IS breakfast + brunch.</div></div></div>
-    <div class="timeline-item"><span class="time">10:45</span><div class="detail"><strong>Tube to Regent's Park (15 min)</strong></div></div>
+    <div class="timeline-item"><span class="time">10:45</span><div class="detail"><strong>🌊 South Bank walk (5 min from Borough Market)</strong><div class="sub">Walk along the Thames towards Waterloo Bridge — book market, street performers, views of St Paul's. 20-30 min gentle stroll.</div></div></div>
+    <div class="timeline-item"><span class="time">11:15</span><div class="detail"><strong>Tube to Regent's Park (15 min)</strong></div></div>
     <div class="timeline-item"><span class="time">11:00</span><div class="detail"><strong>🌳 Stroll into Regent's Park</strong><div class="sub">Beautiful in July. Find a bench near the lake.</div></div></div>
     <div class="timeline-item"><span class="time">11:30</span><div class="detail"><strong>☕ Coffee from park café + sit</strong><div class="sub">Relax in the sunshine before the show.</div></div></div>
 </div>
@@ -60,42 +61,33 @@ const weekend4Content = `
 </div>
 
 <div class="day-header">
-    <h2>📅 Sunday 13 July — South Bank + Buckingham Palace + Hyde Park (Farewell Day)</h2>
-    <p>Relaxed last day in UK 🎉 • Later start • Home by 4:47 PM</p>
+    <h2>📅 Sunday 13 July — Flight Home ✈️</h2>
+    <p>No sightseeing — airport day</p>
 </div>
 
-<div class="card activity">
-    <div class="timeline-item"><span class="time">09:00</span><div class="detail"><strong>🚂 Train to London (sleep in — last day!)</strong></div></div>
-    <div class="timeline-item"><span class="time">09:47</span><div class="detail"><strong>Arrive King's Cross</strong></div></div>
-    <div class="timeline-item"><span class="time">10:00</span><div class="detail"><strong>Tube to Waterloo/Southwark (15 min)</strong></div></div>
-    <div class="timeline-item"><span class="time">10:15</span><div class="detail"><strong>🌊 South Bank walk</strong><div class="sub">Walk along the Thames — book market under Waterloo Bridge, street performers, Tate Modern exterior, views of St Paul's across the river. Gentle 45 min stroll.</div></div></div>
-    <div class="timeline-item"><span class="time">11:00</span><div class="detail"><strong>☕ Coffee at a South Bank café</strong><div class="sub">Sit by the river, people-watch.</div></div></div>
-    <div class="timeline-item"><span class="time">11:30</span><div class="detail"><strong>Cross Westminster Bridge → Tube to Green Park (5 min)</strong></div></div>
-    <div class="timeline-item"><span class="time">12:00</span><div class="detail"><strong>👑 Buckingham Palace</strong><div class="sub">Quick photo from the front gates. See the guards. 15 min.</div></div></div>
-    <div class="timeline-item"><span class="time">12:15</span><div class="detail"><strong>🌳 St James's Park</strong><div class="sub">Beautiful lake, pelicans, views of the palace. Sit on a bench. 30 min.</div></div></div>
-    <div class="timeline-item"><span class="time">12:45</span><div class="detail"><strong>🍽️ Lunch (near Piccadilly/Mayfair area)</strong><div class="sub">Proper sit-down. Last London meal!</div></div></div>
-    <div class="timeline-item"><span class="time">13:45</span><div class="detail"><strong>Walk to Hyde Park (5 min from Green Park)</strong></div></div>
-    <div class="timeline-item"><span class="time">14:00</span><div class="detail"><strong>🌿 Hyde Park</strong><div class="sub">Serpentine lake, deckchairs, Italian Gardens, Diana Memorial Fountain. Relaxed 45 min.</div></div></div>
-    <div class="timeline-item"><span class="time">14:45</span><div class="detail"><strong>☕ Ice cream / sit on a deckchair</strong><div class="sub">Soak in the last bit of London.</div></div></div>
-    <div class="timeline-item"><span class="time">15:15</span><div class="detail"><strong>Tube to King's Cross (Piccadilly Line, 15 min)</strong></div></div>
-    <div class="timeline-item"><span class="time">15:30</span><div class="detail"><strong>Browse Coal Drops Yard (if she wants) or head to station</strong></div></div>
-    <div class="timeline-item"><span class="time">16:00</span><div class="detail"><strong>🚂 Train home</strong></div></div>
-    <div class="timeline-item"><span class="time">16:47</span><div class="detail"><strong>Home 🏠 — Trip complete! 🎉</strong><div class="sub">~6K steps. Easy, relaxed farewell day.</div></div></div>
+<div class="card transport">
+    <div class="timeline-item"><span class="time">08:00</span><div class="detail"><strong>Check out of hotel in Peterborough</strong></div></div>
+    <div class="timeline-item"><span class="time">08:30</span><div class="detail"><strong>🚂 Train Peterborough → London King's Cross (47 min)</strong></div></div>
+    <div class="timeline-item"><span class="time">09:17</span><div class="detail"><strong>Tube: King's Cross → Heathrow Terminal 2</strong><div class="sub">Piccadilly Line direct — ~55 min. No changes needed.</div></div></div>
+    <div class="timeline-item"><span class="time">10:15</span><div class="detail"><strong>Arrive Heathrow Terminal 2</strong><div class="sub">Check-in + security + immigration. Be through security by 11:30.</div></div></div>
+    <div class="timeline-item"><span class="time">13:15</span><div class="detail"><strong>✈️ Flight AI 112 — London → Delhi</strong></div></div>
 </div>
+<div class="warning">Flight is at 1:15 PM — aim to reach Heathrow by 10:00-10:15 AM for international flight (3 hours before). Piccadilly Line from King's Cross to Heathrow T2 is ~55 min direct.</div>
+<div class="tip"><strong>Alternative to Heathrow:</strong> Heathrow Express from Paddington (15 min, ~£25) if she wants to be faster. But Piccadilly Line (£5.50) is fine with this timing.</div>
 
 <h2>💰 Weekend 4 Budget</h2>
 <table>
-    <tr><th>Item</th><th>Saturday</th><th>Sunday</th></tr>
-    <tr><td>Train (return)</td><td>£33</td><td>£33</td></tr>
-    <tr><td>London transport</td><td>~£8</td><td>~£8</td></tr>
+    <tr><th>Item</th><th>Saturday</th><th>Sunday (airport)</th></tr>
+    <tr><td>Train (return)</td><td>£33</td><td>£16.60 (one way to London)</td></tr>
+    <tr><td>London transport</td><td>~£8</td><td>~£6 (Piccadilly Line to Heathrow)</td></tr>
     <tr><td>Open Air Theatre</td><td>£15-40</td><td>—</td></tr>
     <tr><td>Paradox Museum</td><td>£17-22</td><td>—</td></tr>
     <tr><td>Floating Igloo</td><td>£45-49</td><td>—</td></tr>
-    <tr><td>Food</td><td>~£15 (Borough Market brunch)</td><td>~£15 (lunch)</td></tr>
-    <tr><td>Coffee/snacks</td><td>~£8</td><td>~£8</td></tr>
-    <tr><td><strong>Total</strong></td><td><strong>£141-175</strong></td><td><strong>£64-69</strong></td></tr>
+    <tr><td>Food</td><td>~£15 (Borough Market brunch)</td><td>~£10 (airport)</td></tr>
+    <tr><td>Coffee/snacks</td><td>~£8</td><td>—</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>£141-175</strong></td><td><strong>£33</strong></td></tr>
 </table>
-<p class="budget-total">Weekend 4 Total: £205 - £244</p>
+<p class="budget-total">Weekend 4 Total: £174 - £208</p>
 
 <h2>💡 Tips</h2>
 <div class="card">
