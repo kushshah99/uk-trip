@@ -5,10 +5,10 @@ const documentsContent = `
 <div class="card">
     <table>
         <tr><th>Document</th><th>Link</th></tr>
-        <tr><td>🛂 UK eVisa</td><td><a class="link-btn" href="docs/eVisa_Saloni.pdf" target="_blank">View PDF</a></td></tr>
-        <tr><td>✈️ Flight Ticket</td><td><a class="link-btn" href="docs/Ticket_Saloni.pdf" target="_blank">View PDF</a></td></tr>
-        <tr><td>✈️ Boarding Pass</td><td><a class="link-btn" href="docs/Boarding Pass-SALONI DIPESHBHAI.pdf" target="_blank">View PDF</a></td></tr>
-        <tr><td>📋 GPP Letter</td><td><a class="link-btn" href="docs/5) GPP Letter- Saloni (1).pdf" target="_blank">View PDF</a></td></tr>
+        <tr><td>🛂 UK eVisa</td><td><a class="link-btn" href="https://drive.google.com/file/d/1MLDH4ggloUMNP47OU5e8ZfrMIoU9LYIR/view?usp=drive_link" target="_blank">View PDF</a></td></tr>
+        <tr><td>✈️ Flight Ticket</td><td><a class="link-btn" href="https://drive.google.com/file/d/1JrrFhqo_PgnaMbozNYnu-g0Q4mnLZLiX/view?usp=drive_link" target="_blank">View PDF</a></td></tr>
+        <tr><td>✈️ Boarding Pass</td><td><a class="link-btn" href="https://drive.google.com/file/d/1XOU9QdMD_OgFBSSUd-rGm0Jy_nhL7WJd/view?usp=drive_link" target="_blank">View PDF</a></td></tr>
+        <tr><td>📋 GPP Letter</td><td><a class="link-btn" href="https://drive.google.com/file/d/1oGLAAFWS1fujUcHEJmTgstB-3-TLtoT6/view?usp=drive_link" target="_blank">View PDF</a></td></tr>
     </table>
 </div>
 
