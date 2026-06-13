@@ -27,6 +27,7 @@ function loadTabContent(tabId) {
     if (tabId === 'weekend4' && typeof weekend4Content !== 'undefined') content = weekend4Content;
     if (tabId === 'bookings' && typeof bookingsContent !== 'undefined') content = bookingsContent;
     if (tabId === 'documents' && typeof documentsContent !== 'undefined') content = documentsContent;
+    if (tabId === 'essentials' && typeof essentialsContent !== 'undefined') content = essentialsContent;
     if (content) {
         el.innerHTML = content;
         loaded[tabId] = true;
